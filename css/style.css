@@ -3,6 +3,10 @@ header {
     background-color: red;
 }
 
-#logo {
+.grey {
+    color: grey;
+}
 
+.mini {
+    font-size: 10px;
 }
