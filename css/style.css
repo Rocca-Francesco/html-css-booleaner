@@ -1,3 +1,10 @@
+/* generics */
+
+body {
+    margin: 0 auto;
+}
+
+
 header {
     height: 175px;
     background-color: #4895ed;
@@ -29,7 +36,19 @@ header {
     background-color: yellow;
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    list-style-position: inside;
+}
 /* sistemo table */
+table {
+    text-align: left;
+    border-collapse: collapse;
+}
 
 th {
     background-color: rgb(32,169,229);
@@ -45,6 +64,10 @@ tr {
     width: 90px;
 }
 
+.w-50{
+    width: 50%;
+}
+
 /* immagini articoli extra */
 #monitor {
     height: 200px;
@@ -52,13 +75,14 @@ tr {
     color: white;
     background-image: url(../img/monitor.jpg);
     background-repeat: no-repeat;
-    text-align: justify;
+    padding: 10px;
 }
+
 #grafico {
     height: 200px;
     width: 250px;
     color: white;
     background-image: url(../img/graph.jpg);
     background-repeat: no-repeat;
-    text-align: justify;
+    padding: 10px;  
 }
